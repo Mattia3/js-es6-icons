@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header-title{
+  color: rgba(41,177,221,255);
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 40px;
+}
+
+.nav-title{
+  color: white;
+  padding-right: 10px;
+  line-height: 16px;
+}
+
+.container-nav{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41,177,221,255);
+  padding: 20px;
+}
+
+.main-container{
+  background-color: rgba(221,221,221,255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 85px;
+}
+
+.icon-container {
+  background-color: rgba(245,245,245,255);
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid  #00000024;
+}
+
+.main-container div i{
+  font-size:50px;
+  padding-top: 20px;
+}
+
+.user{
+  color: violet;
+}
+
+.animal{
+  color: blue;
+}
+.vegetable{
+  color: green;
+}
+
+.title-icon{
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+
