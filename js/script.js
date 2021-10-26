@@ -163,18 +163,34 @@ allArray()
 const selectAll = document.getElementById("select-all")
 
 //Vado a selezionare le icone in base al loro valore(all,animal,vegetable,user)
-selectAll.addEventListener("change", function(){
+ selectAll.addEventListener("change", function(){
 
-  if(selectAll.value === 'all'){
-    iconInsert(allIcon)
-  }
-  if(selectAll.value === 'animal'){
+//   if(selectAll.value === 'all'){
+//     iconInsert(allIcon)
+//   }
+//   if(selectAll.value === 'animal'){
+//     iconInsert(animals)
+//   }
+//   if(selectAll.value === 'vegetable'){
+//     iconInsert(vegetable)
+//   }
+//   if(selectAll.value === 'user'){
+//     iconInsert(user)
+//   }
+// )
+
+switch(selectAll.value){
+  case "all":
+    iconInsert(allIcon);
+    break;
+  case "animal":
     iconInsert(animals)
-  }
-  if(selectAll.value === 'vegetable'){
+    break;
+  case "vegetable":
     iconInsert(vegetable)
-  }
-  if(selectAll.value === 'user'){
+    break;
+  case "user":
     iconInsert(user)
-  }
+    break;
+}
 })
